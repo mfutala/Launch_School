@@ -59,10 +59,10 @@ console.log(allCapsIfLongerThan10Chars("Mammy")); */
 function ranger(num) {
  
   switch (true) {
-    case (num >= 0 && num <= 50):
+    case (num >= 0) && (num <= 50):
       console.log(`The number ${num} is between 0 and 50`);
       break;
-    case (num >= 51 && num <= 100):
+    case (num >= 51) && (num <= 100):
       console.log(`The number ${num} is between 51 and 100`);
       break;
     case (num > 100):
