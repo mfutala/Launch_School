@@ -7,7 +7,7 @@ while (counter <= 10) {
 
 let names = ["chris", 'kevin', 'Naveed', "pete", 'Victor'];
 let upperCaseNames = [];
-let index = 0;
+/* let index = 0;
 
 while (index < names.length) {
   //if (names[index] === 'Naveed') continue;
@@ -15,8 +15,11 @@ while (index < names.length) {
   index += 1;
 }
 
-console.log(upperCaseNames);
+console.log(upperCaseNames); */
 
-
-
+names.forEach(name => {
+  name != 'Naveed' ? upperCaseNames.push(name.toUpperCase()): "";
+})
+  
+  console.log(upperCaseNames);
 
