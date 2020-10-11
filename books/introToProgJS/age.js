@@ -37,3 +37,44 @@ function randomNumberBetween(min, max) {
   console.log('It took ' + String(tries) + ' tries to get a number greater than 2'); */
 
   
+
+  let objToCopy = { 
+    foo: 1,
+    bar: 2,
+    buzz: 3,
+  };
+
+  
+    
+    function copyObj(sourceObject, keys) {
+      let copy = {};
+    
+      if (keys) {
+        keys.forEach(key => {
+          copy[key] = sourceObject[key];
+        });
+    
+        return copy;
+      } else {
+        return Object.assign(copy, sourceObject);
+      }
+    }
+  
+  
+ let newObj = copyObj(objToCopy);
+ console.log(newObj.foo);
+ console.log(newObj.bar);
+ //console.log(newObj.buzz);
+
+
+
+
+
+
+
+
+
+
+
+
+
