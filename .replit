@@ -1,0 +1,3 @@
+language = "nodejs"
+run = 'node Exercises/JS100_JavaScript_Basics/Loops/takeTwo.js'
+
