@@ -1,2 +1,4 @@
 language = "nodejs"
-run = "run = 'bash node'"
+run = 'nodejs Exercises/index.js'
+
+
