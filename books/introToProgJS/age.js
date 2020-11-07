@@ -61,10 +61,10 @@ function randomNumberBetween(min, max) {
     }
   
   
- let newObj = copyObj(objToCopy);
+ let newObj = copyObj(objToCopy, ['buzz', 'foo']);
  console.log(newObj.foo);
  console.log(newObj.bar);
- //console.log(newObj.buzz);
+ console.log(newObj.buzz);
 
 
 
