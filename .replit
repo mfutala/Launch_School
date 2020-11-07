@@ -1,0 +1,8 @@
+language = "nodejs"
+<<<<<<< HEAD
+run = 'node Exercises/JS100_JavaScript_Basics/Loops/takeTwo.js'
+=======
+run = 'nodejs Exercises/index.js'
+
+>>>>>>> origin/master
+
