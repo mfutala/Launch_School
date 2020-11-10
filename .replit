@@ -1,8 +1,5 @@
 language = "nodejs"
-<<<<<<< HEAD
-run = 'node Exercises/JS100_JavaScript_Basics/Loops/takeTwo.js'
-=======
-run = 'nodejs Exercises/index.js'
 
->>>>>>> origin/master
+run = 'node Exercises/JS100_JavaScript_Basics/Functions_1/threeWayComparison.js'
+
 
