@@ -20,6 +20,7 @@ let vocabulary = ['hello world',
   ['happy', 'cheerful', 'merry', ['glad','sad', 'angry']],
   ['tired', ['sleepy', 'more sleepy'], 'even more sleepy', 'fatigued','drained'],
   ['excited', 'eager', ['enthused', ['crying','bored']], 'animated']];
+  
 
 /*
 vocabulary.forEach(element => 
@@ -69,7 +70,7 @@ console.log(outPut);
 for(i = 0; i < outPut.length; i++) {
   console.log(outPut[i]);
 }
-*/
+
 let anArray = [];
 let otherObjectsFound = vocabulary.reduce((acc, ele) => {
     if (Array.isArray(ele)) {
@@ -81,9 +82,31 @@ let otherObjectsFound = vocabulary.reduce((acc, ele) => {
 
 //console.log(outPut.split(' '));
 //console.log(vocabulary.flat(Infinity));
-console.log(otherObjectsFound);
+//console.log(otherObjectsFound);
 
 
+let vocabulary = ['cheerful', 'glad',
+  ['happy', 'cheerful', 'merry', 'glad'],
+  ['tired', 'sleepy', 'fatigued', 'drained',['added','add']],
+  ['excited', 'eager', 'enthused', 'animated']
+];
+*/
+
+function stepArray(arr) {
+
+arr.forEach(element => {
+  if (Array.isArray(element)) {
+    [value, ...rest] = element;
+    console.log(value)
+    stepArray(rest);
+  }else {
+  console.log(element);
+  }
+
+  });
+}
+
+stepArray(vocabulary);
 
 
 

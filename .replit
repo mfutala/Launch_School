@@ -1,5 +1,5 @@
 language = "nodejs"
 
-run = 'node Exercises/JS100_JavaScript_Basics/Objects/clonePerson.js'
+run = 'node Exercises/JS100_JavaScript_Basics/Arrays/vocabulary.js'
 
 
